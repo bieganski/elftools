@@ -7,3 +7,6 @@ find offset of given symbol and print it's content in hex
 * `get_symbol.py`
 given memory address it finds all possible symbols that address could belong too
 (it may be many of them, as sometimes information about symbol sizes is missing).
+
+* `dwarf.py`
+given memory address or symbol name finds it's location - source filename and line
